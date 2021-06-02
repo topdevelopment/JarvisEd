@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- dimens.xml
+-
+-->
+
+<resources>
+
+    <dimen name="default_margin">@dimen/_10sdp</dimen>
+    <dimen name="large_margin">@dimen/_20sdp</dimen>
+    <dimen name="indent_margin">@dimen/_40sdp</dimen>
+
+    <dimen name="textsize_signup_titles">36sp</dimen>
+    <dimen name="textsize_default_button_style">18sp</dimen>
+    <dimen name="textsize_small_text">16sp</dimen>
+    <dimen name="textsize_dialog_fragment_title">28sp</dimen>
+    <dimen name="textsize_dialog_text">18sp</dimen>
+    <dimen name="textsize_listview_item_title">22sp</dimen>
+    <dimen name="textsize_listview_item_description">18sp</dimen>
+
+    <dimen name="report_menu_width">@dimen/_175sdp</dimen>
+    <dimen name="imageview_logo_height_width">50dp</dimen>
+    <dimen name="imageview_listview_item_height_width">@dimen/_50sdp</dimen>
+    <dimen name="button_height_width">@dimen/_125sdp</dimen>
+    <dimen name="circle_button_height_width">@dimen/_75sdp</dimen>
+    <dimen name="spinner_height">@dimen/_45sdp</dimen>
+    <dimen name="listview_dialog_height">@dimen/_150sdp</dimen>
+    <dimen name="ui_stroke_width">@dimen/_2sdp</dimen>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "331196771500",
+    "firebase_url": "https://jarvised-55a51.firebaseio.com",
+    "project_id": "jarvised-55a51",
+    "storage_bucket": "jarvised-55a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331196771500:android:1332042bcd8aff58f8c309",
+        "android_client_info": {
+          "package_name": "com.top.jarvised"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331196771500-fleedv4v0ut383u6os2pk9b2ska6c868.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.top.jarvised",
+            "certificate_hash": "2ba4aee7e2d3fe390a9197a3d8b5aa15c9289ad5"
+          }
+        },
+        {
+          "client_id": "331196771500-4b74v3o3oh42edh812l82rk8bks03hp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkvBOIjcasiK9ebHGKta0Yo7CpwfnE-4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331196771500-4b74v3o3oh42edh812l82rk8bks03hp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

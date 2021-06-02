@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- colors.xml
+-
+-->
+
+<resources>
+
+    <color name="colorPrimary">#3D84AC</color>
+    <color name="colorPrimaryDark">#295974</color>
+    <color name="colorAccent">#3D84AC</color>
+
+    <color name="jarvisPrimaryColor">#9CB43C</color>
+    <color name="jarvisPrimaryLightColor">#bbcf6e</color>
+    <color name="jarvisSecondaryColor">#3D84AC</color>
+    <color name="jarvisSecondaryDarkColor">#295974</color>
+
+    <color name="listSelectorColor">#6BA8CB</color>
+
+</resources>

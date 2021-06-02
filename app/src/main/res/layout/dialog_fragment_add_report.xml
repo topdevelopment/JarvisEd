@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- dialog_fragment_add_report.xml
+-
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/report_menu_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/default_margin">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DefaultButton"
+        android:drawableLeft="@drawable/dashboard_black"
+        android:text="@string/button_absence"
+        android:id="@+id/button_absence"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_absence"
+        style="@style/DefaultButton"
+        android:drawableLeft="@drawable/dashboard_black"
+        android:text="@string/button_isolation"
+        android:id="@+id/button_isolation"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_isolation"
+        style="@style/DefaultButton"
+        android:drawableLeft="@drawable/dashboard_black"
+        android:text="@string/button_focus"
+        android:id="@+id/button_focus"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_focus"
+        style="@style/DefaultButton"
+        android:drawableLeft="@drawable/dashboard_black"
+        android:text="@string/button_cancel"
+        android:id="@+id/button_cancel"/>
+
+</RelativeLayout>

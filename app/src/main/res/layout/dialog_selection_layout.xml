@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- dialog_selection_layout.xml
+-
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listview_dialog_height"
+        style="@style/JarvisListView"
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/listview_selection_data"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listview_selection_data"
+        style="@style/DefaultButton"
+        android:text="@string/button_select"
+        android:id="@+id/button_select"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_select"
+        style="@style/DefaultButton"
+        android:text="@string/button_cancel"
+        android:id="@+id/button_cancel"/>
+
+</RelativeLayout>

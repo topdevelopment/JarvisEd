@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- fragment_signup_i_am_a.xml
+-
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/jarvisPrimaryColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gl_15"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/textview_i_am_a"
+        android:textSize="@dimen/textsize_signup_titles"
+        android:textColor="@android:color/white"
+        android:id="@+id/textview_title"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/gl_15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_parent"
+        app:layout_constraintBottom_toTopOf="@id/gl_45"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_student"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_student"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/gl_15"
+        app:layout_constraintStart_toEndOf="@id/button_student"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gl_45"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_parent"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_parent"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/button_student"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_administrator"
+        app:layout_constraintBottom_toTopOf="@id/gl_70"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_teacher"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_teacher"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/button_parent"
+        app:layout_constraintStart_toEndOf="@id/button_teacher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gl_70"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_administrator"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_administrator"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/gl_70"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_cancel"
+        app:layout_constraintBottom_toTopOf="@id/gl_95"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_just_curious"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_just_curious"/>
+
+    <Button
+        android:layout_width="@dimen/button_height_width"
+        android:layout_height="@dimen/button_height_width"
+        app:layout_constraintTop_toBottomOf="@id/gl_70"
+        app:layout_constraintStart_toEndOf="@id/button_just_curious"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/gl_95"
+        android:layout_margin="@dimen/default_margin"
+        android:background="@drawable/circle_button_background"
+        android:text="@string/button_cancel"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_default_button_style"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/button_cancel"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintGuide_percent="0.2"
+        android:orientation="horizontal"
+        android:id="@+id/gl_15"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintGuide_percent="0.45"
+        android:orientation="horizontal"
+        android:id="@+id/gl_45"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintGuide_percent="0.7"
+        android:orientation="horizontal"
+        android:id="@+id/gl_70"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintGuide_percent="0.95"
+        android:orientation="horizontal"
+        android:id="@+id/gl_95"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

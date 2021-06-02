@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- selection_row_item.xml
+-
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_selector_background">
+
+    <ImageView
+        android:layout_width="@dimen/imageview_listview_item_height_width"
+        android:layout_height="@dimen/imageview_listview_item_height_width"
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/imageview_user_avatar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_toRightOf="@id/imageview_user_avatar"
+        android:layout_alignTop="@id/imageview_user_avatar"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_listview_item_title"
+        android:textColor="@android:color/white"
+        android:text="sample"
+        android:id="@+id/text1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageview_user_avatar"
+        android:layout_alignBottom="@id/imageview_user_avatar"
+        android:layout_marginStart="@dimen/default_margin"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_listview_item_description"
+        android:textColor="@android:color/darker_gray"
+        android:text="sample"
+        android:id="@+id/text2"/>
+
+</RelativeLayout>

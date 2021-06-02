@@ -1,0 +1,122 @@
+<!--
+-
+- TOP Development
+- strings.xml
+-
+-->
+
+<resources>
+
+    <string name="app_name">JarvisEd</string>
+
+    <string name="textview_i_am_a">I am a. . .</string>
+    <string name="textview_would_you_like">Would you like</string>
+    <string name="textview_to_add_students">to add students</string>
+    <string name="textview_to_add_teachers">to add teachers</string>
+    <string name="textview_now">now?</string>
+    <string name="textview_how_would_you">How would you</string>
+    <string name="textview_like_to_import">like to import</string>
+    <string name="textview_your_students">your students?</string>
+    <string name="textview_your_teachers">your teachers?</string>
+    <string name="textview_enter_your">Enter your</string>
+    <string name="textview_teachers">teacher\'s</string>
+    <string name="textview_students">student\'s</string>
+    <string name="textview_information">information\:</string>
+    <string name="textview_condition_at_risk">Condition or At-Risk?</string>
+    <string name="textview_condition">Condition</string>
+    <string name="textview_at_risk">At-Risk</string>
+    <string name="textview_current_student">Current Student:</string>
+    <string name="textview_enter_school_name">Enter a School Name:</string>
+    <string name="textview_current_user">Current User: </string>
+
+    <string name="edittext_hint_email">Email</string>
+    <string name="edittext_hint_confirm_email">Confirm Email</string>
+    <string name="edittext_hint_password">Password</string>
+    <string name="edittext_hint_fullname">Full Name</string>
+    <string name="edittext_hint_school_name">School Name</string>
+    <string name="edittext_hint_search_school">Search</string>
+    <string name="edittext_hint_confirm_password">Confirm Password</string>
+    <string name="edittext_hint_class_name">Class Name</string>
+
+    <string name="button_help">\?</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_student">Student</string>
+    <string name="button_parent">Parent</string>
+    <string name="button_teacher">Teacher</string>
+    <string name="button_administrator">Administrator</string>
+    <string name="button_just_curious">Just Curious</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_manual">Manual</string>
+    <string name="button_excel">Excel File</string>
+    <string name="button_birthday">Select Birthday</string>
+    <string name="button_subject">Select Subject</string>
+    <string name="button_next">Next</string>
+    <string name="button_complete">Complete</string>
+    <string name="button_select">Select</string>
+    <string name="button_add_school">Add School</string>
+    <string name="button_create_account">Create Account</string>
+    <string name="button_create">Create</string>
+    <string name="button_add_teacher">Add Teacher</string>
+    <string name="button_add_student">Add Student</string>
+    <string name="button_edit_teacher">Edit Teacher</string>
+    <string name="button_edit_student">Edit Student</string>
+    <string name="button_import_teachers">Import Teachers</string>
+    <string name="button_import_students">Import Students</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_attach_teacher">Attach</string>
+    <string name="button_add_class">Add Class</string>
+    <string name="button_new_report">New Report</string>
+    <string name="button_absence">Absence</string>
+    <string name="button_isolation">Isolation</string>
+    <string name="button_focus">Focus</string>
+    <string name="button_select_student">Select Student</string>
+    <string name="button_select_teacher">Select Teacher</string>
+    <string name="button_view_reports">View Reports</string>
+    <string name="button_view_details">View Details</string>
+
+    <string name="toast_message_no_fullname">Enter the teacher\'s full name</string>
+    <string name="toast_message_no_birthday">Select the teacher\s birthday</string>
+    <string name="toast_message_no_subject">Select the teacher\'s subject</string>
+    <string name="toast_message_no_email">Enter the teacher\'s email</string>
+    <string name="toast_message_invalid_email">Enter a valid email to continue</string>
+    <string name="toast_message_teacher_created">Teacher Added</string>
+    <string name="toast_message_student_created">Student Added</string>
+    <string name="toast_message_no_school_name">No School Name Entered</string>
+    <string name="toast_message_error_add_school">Error Adding School</string>
+    <string name="toast_message_error_get_schools">Error Retrieving Schools</string>
+    <string name="toast_message_no_password">Enter a password to continue</string>
+    <string name="toast_message_something_went_wrong">Something went wrong</string>
+    <string name="toast_message_failed_login">Failed Login Attempt, Please Try Again</string>
+    <string name="toast_message_failed_retrieving_user_info">Could Not Load User Info, Please Try Again</string>
+    <string name="toast_message_school_created">School Added!</string>
+    <string name="toast_message_select_school_before_continuing">Select School to Continue</string>
+    <string name="toast_message_signup_no_fullname">Enter a valid FULL NAME to continue</string>
+    <string name="toast_message_signup_no_email">Enter a valid EMAIL to continue</string>
+    <string name="toast_message_signup_email_mismatch">Emails do not match</string>
+    <string name="toast_message_signup_no_password">Enter a valid PASSWORD to continue</string>
+    <string name="toast_message_signup_password_mismatch">Passwords do not match</string>
+    <string name="toast_message_signup_password_length_short">Password must be at least 6 characters</string>
+    <string name="toast_message_no_student_selected">Select a Student to Continue</string>
+    <string name="toast_message_no_teacher_selected">Select a Teacher to Continue</string>
+    <string name="toast_message_feature_unavailable">Feature Unavailable</string>
+    <string name="toast_message_no_current_students">No Current Students</string>
+    <string name="toast_message_no_current_teachers">No Current Teachers</string>
+    <string name="toast_message_error_pulling_students">Error Occurred While Pulling Students</string>
+    <string name="toast_message_error_pulling_teachers">Error Occurred While Pulling Teachers</string>
+    <string name="toast_message_no_class_selected">No Class Selected</string>
+    <string name="toast_message_class_created_successfully">Class Created Successfully</string>
+    <string name="toast_message_no_classes_found">No Classes Found</string>
+    <string name="toast_message_class_deleted_successfully">Class Deleted Successfully</string>
+    <string name="toast_message_class_deleted_failed">Failed to Delete Class Successfully</string>
+    <string name="toast_message_invalid_operation">Invalid Operation</string>
+
+    <string name="menu_item_add">Add</string>
+    <string name="menu_item_menu">Menu</string>
+
+    <string name="dialog_title_loading">Loading...</string>
+
+</resources>

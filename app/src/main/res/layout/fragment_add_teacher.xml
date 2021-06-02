@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- fragment_add_teacher.xml
+-
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jarvisPrimaryColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintBottom_toTopOf="@id/textview_title_line_2"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/textview_enter_your"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_signup_titles"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/textview_title_line_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_title_line_1"
+        app:layout_constraintStart_toStartOf="@id/textview_title_line_1"
+        app:layout_constraintBottom_toTopOf="@id/textview_title_line_3"
+        android:layout_marginStart="@dimen/indent_margin"
+        android:text="@string/textview_teachers"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_signup_titles"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/textview_title_line_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_title_line_2"
+        app:layout_constraintStart_toStartOf="@id/textview_title_line_1"
+        android:layout_marginStart="@dimen/indent_margin"
+        android:text="@string/textview_information"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textsize_signup_titles"
+        android:fontFamily="sans-serif-medium"
+        android:id="@+id/textview_title_line_3"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textview_title_line_3"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        style="@style/DefaultEdittext"
+        android:hint="@string/edittext_hint_fullname"
+        android:singleLine="true"
+        android:id="@+id/edittext_fullname"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_fullname"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_birthday"
+        android:id="@+id/button_birthday"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/button_birthday"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_subject"
+        android:id="@+id/button_subject"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/button_subject"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultEdittext"
+        android:hint="@string/edittext_hint_email"
+        android:singleLine="true"
+        android:id="@+id/edittext_email"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_email"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultEdittext"
+        android:hint="@string/edittext_hint_confirm_email"
+        android:singleLine="true"
+        android:id="@+id/edittext_confirm_email"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/button_cancel"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_create"
+        android:id="@+id/button_create"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_cancel"
+        android:id="@+id/button_cancel"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintGuide_percent="0.2"
+        android:orientation="vertical"
+        android:id="@+id/gl_20"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintGuide_percent="0.8"
+        android:orientation="vertical"
+        android:id="@+id/gl_80"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---
+-
+- TOP Development
+- fragment_signup_new_user_details.xml
+-
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jarvisPrimaryColor">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultEdittext"
+        android:layout_marginTop="@dimen/large_margin"
+        android:hint="@string/edittext_hint_fullname"
+        android:id="@+id/edittext_fullname"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_fullname"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultEdittext"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/edittext_hint_email"
+        android:id="@+id/edittext_email"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_email"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultEdittext"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/edittext_hint_confirm_email"
+        android:id="@+id/edittext_confirm_email"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_confirm_email"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultEdittext"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/edittext_hint_password"
+        android:inputType="textPassword"
+        android:id="@+id/edittext_password"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edittext_password"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultEdittext"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/edittext_hint_confirm_password"
+        android:inputType="textPassword"
+        android:id="@+id/edittext_confirm_password"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/button_cancel"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultButton"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:text="@string/button_create_account"
+        android:id="@+id/button_create_account"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/gl_20"
+        app:layout_constraintEnd_toEndOf="@id/gl_80"
+        style="@style/DefaultButton"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:text="@string/button_cancel"
+        android:id="@+id/button_cancel"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintGuide_percent="0.2"
+        android:orientation="vertical"
+        android:id="@+id/gl_20"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintGuide_percent="0.8"
+        android:orientation="vertical"
+        android:id="@+id/gl_80"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

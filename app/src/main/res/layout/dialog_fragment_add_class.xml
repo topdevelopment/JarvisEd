@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- dialog_fragment_add_class.xml
+-
+-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:background="@drawable/dialog_background"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultEdittext"
+        android:hint="@string/edittext_hint_class_name"
+        android:id="@+id/edittext_class_name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_class_name"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_add_class"
+        android:id="@+id/button_add_class"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_add_class"
+        android:layout_margin="@dimen/default_margin"
+        style="@style/DefaultButton"
+        android:text="@string/button_cancel"
+        android:id="@+id/button_cancel"/>
+
+</RelativeLayout>

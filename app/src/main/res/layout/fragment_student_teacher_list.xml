@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+-
+- TOP Development
+- fragment_student_teacher_list.xml
+-
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/jarvisPrimaryColor">
+
+    <Button
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_reports"
+        style="@style/RoundButton"
+        android:text="@string/button_view_details"
+        android:id="@+id/button_details"/>
+
+    <Button
+        app:layout_constraintStart_toEndOf="@id/button_details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/RoundButton"
+        android:text="@string/button_view_reports"
+        android:id="@+id/button_reports"/>
+
+    <ListView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_details"
+        style="@style/JarvisListView"
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/listview_selection_data"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
